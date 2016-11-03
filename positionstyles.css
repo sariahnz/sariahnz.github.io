@@ -102,10 +102,7 @@
     background-color: blue; 
      } 
      /* Activity 5 styles */ 
-.content5 div{
-    
-    display:inline-block;
-}    
+  
 .red5 { 
     width: 600px; 
     height: 100px; 
@@ -124,33 +121,41 @@
     height: 100px; 
     background-color: gold; 
         float: right;
-        margin-top: -50px;
-        z-index:1000;
+        margin-top: -100px;
+        z-index: 1; position: relative;
 
     } 
     .blue5 {
     width: 600px; 
     height: 100px; 
     background-color: blue; 
+        margin-top: 20px;
      } 
-     /* Activity 6 styles */ 
+    
+
+/* Activity 6 styles */ 
     .red6 {
-    width: 100px; 
+    width: 600px; 
     height: 100px; 
     background-color: red; 
     } 
     .green6 {
-    width: 100px; 
-    height: 100px; 
+    width: 200px; 
+    height: 200px; 
     background-color: green; 
+        float: left;
+        margin: 0 0 0 1em;
+        position: relative;
+        right: 15px;
      } 
     .yellow6 {
-    width: 100px; 
-    height: 100px; 
-    background-color: gold; 
+    width: 100%px; 
+    height: 330px; 
+    background-color: gold;
+    padding: 1em;
     } 
     .blue6 {
-    width: 100px; 
+    width: 600px; 
     height: 100px; 
     background-color: blue; 
     } 
