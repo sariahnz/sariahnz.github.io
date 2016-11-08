@@ -18,6 +18,15 @@
             line-height: 2px;
         }
         
+        img {
+            
+            max-width: 100%;
+        }
+        .fullwidth {
+            
+            width: 100%;
+        }
+        
         section{
             
             padding: 15px;
@@ -28,18 +37,11 @@
         }
         
     
-        #river-rush {
+        #middle-row {
             
             background-color: gainsboro;
-            width: 48%;
-        
         }
         
-        
-        #rivers-relax {
-            width: 48%;
-            
-        }
         
         nav {
             color: white;
@@ -57,14 +59,38 @@
             margin: 0 auto;
         }
         
-        #join-us {
+        #bottom-row {
             
             text-align: center;
+            max-width: 100%;
+            margin: 0 auto;
         }
         
+        #top-row, #middle-row {
+            
+            display: flex;
+            flex-flow: row wrap;
+            align-items: center;
+        }
+        
+        .leftcol, .rightcol {
+            width: 48%;
+            flex: 1 0 15em;
+            margin: .5em;
+        }
+        
+      
         footer {
             color: #ffffff;
             background-color: #120558;
+            height: 55px;
+        }
+        
+        .icons {
+            
+            float: right;
+            margin-top: -48px;
+            padding-right: 7px;
         }
         </style>
     </head>
@@ -85,8 +111,8 @@
         </ul>
         </nav>
         
-    <img src="banner.jpg" alt="Dry Oar Boating Banner">
-        <section id="rivers-relax">
+    <img class="fullwidth" src="banner.jpg" alt="Dry Oar Boating Banner">
+        <section id="top-row">
             <div class="leftcol">
         <h2>We run Rivers to relax</h2>
         <p>We believe that there is nothing like a river trip for relaxing. That is why we subscribe to the dry oar philosophy of boating. Keeping your oars dry for us means taking time to look around and notice the beauty that surrounds the rivers we love.</p>
@@ -96,7 +122,7 @@
             </div>
             </section>
         
-        <section id="river-rush">
+        <section id="middle-row">
             <div class="leftcol">
         <img src="rapid.jpg" alt="Rush of River Rafting">
             </div>
@@ -106,19 +132,19 @@
             </div>
             </section>
         
-        <section id="join-us">
+        <section id="bottom-row">
             
         <h2>Come Join Us!</h2>
         <p>We invite you to come relax with us on one of the amazing rivers we visit. Check out our trips and let us know which one best suits you. We're waiting to hear from you!</p>
         
             </section>
             <footer>
-        <p>&copy; 2015 Dry Oar || Sariah Mudaliar 
-            <a target ="_blank" href ="http://www.facebook.com/"> <img src="facebook.png"> </a>
+                <p>&copy; 2015 Dry Oar || Sariah Mudaliar</p> 
+            <a class="icons" target ="_blank" href ="http://www.facebook.com/"> <img src="facebook.png"> </a>
             
-            <a target ="_blank" href ="http://www.instagram.com/"> <img src="instagram.png"> </a>
+            <a class="icons" target ="_blank" href ="http://www.instagram.com/"> <img src="instagram.png"> </a>
             
-            <a target ="_blank" href ="http://www.youtube.com/"> <img src="youtube.png"> </a>
+            <a class="icons" target ="_blank" href ="http://www.youtube.com/"> <img src="youtube.png"> </a>
         
             </footer>
         </div>
