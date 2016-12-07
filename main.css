@@ -14,6 +14,9 @@
         background-color: #FFFFFF;
         position: relative;
         width: 110px;
+            margin-left: 38px;
+            border:2px solid #586e75;
+            margin-top: 10px;
 
         }
 
@@ -21,10 +24,13 @@
         
         h1, h2 {
             
-            color: #AA000C;
+            color: #586e75;
             font-family: "Marcellus SC", serif;
             line-height: 2px;
+            padding-top: 0px;
+            padding-bottom: 15px;
         }
+
         
         img {
             
@@ -48,63 +54,75 @@
     
         #middle-row {
             
-            background-color: gainsboro;
+            background-color: #586e75;
         }
         
         
            nav {
             color: white;
-            background-color: #120558;
-            font-size: 1.05em;
-            margin-top: -70px;
-               margin-left: 45px;
+            background-color: #AA000C;
+            margin-top: -78px;
+            width: 100%;
             
         }
 
         nav > ul {
             list-style-type: none;
-            display: flex;
+           background-color: #AA000C;
             flex-flow: row wrap;
-            line-height: 3em;
-            text-align: center;
+            line-height: 2.2em;
             margin: 0;
-    
+            padding: 0;
+            overflow: hidden;
+            margin-left: 177px;
             
         }
 
         nav li {
-       flex: 1 1 8em;
+       float: left;
+            
         }
 
-    nav a {
-     display: block;
+    nav li a {
+     
+         display: block;
+        color: #ffffff;
+        text-align: center;
+        font-size: 1.05em;
+        padding: 12px 50px;
+        text-decoration: none;
+        
+        
     }
         
-    nav a:link, nav a:visited {
+    nav a:link nav a:visited {
     color: #ffffff;
     text-decoration: none;
     }
 
-    nav a:hover {
+
+    nav a:hover:not(.active) {
       color: #ffffff;
     background-color: #E7C24F;
-    
     }
 
-    a {
-    color: #ffffff;
-    text-decoration: none;
-    }
-        
 
         .rush {
-            color: black;
+            color: #ffffff;
             font-size: .9em;
         }
+
+.rush2 {
+    color: #ffffff;
+    padding-bottom: 15px;
+}
         
 .river {
-    font-size: .9em;
+    font-size: .85em;
+
 }
+
+
         #content {
             
             width: 960px;
@@ -151,10 +169,14 @@
 }
         footer {
             color: #ffffff;
-            background-color: #120558;
+            background-color: #AA000C;
             height: 50px;
+            margin-top: 40px;
         }
         
+.home {
+    margin-top: 30px;
+}
         .icons img {
             
             padding: 7.5px;
@@ -173,8 +195,90 @@
     margin-top: -52px;
         }
         
+.icons3 img {
+            
+            padding: 7.5px;
+            margin: 0px;
+            width: 38px;
+            height: 38px;
+            float: right;
+            margin-top: -2px;
+        }
+.icons3 img {
+            
+            padding: 7.5px;
+            margin: 0px;
+            width: 38px;
+            height: 38px;
+            float: right;
+            margin-top: -2px;
+        }
+
 .text {
     text-align: left;
     padding-left: 25px;
     padding-top: 15px;
+}
+
+.booking {
+    position: absolute;
+    margin-top: -267px;
+    margin-left: 420px;
+    background-color: rgba(0,0,0,0.88);
+    height: 225px;
+    width: 520px;
+    font-size: 2.5em;
+    text-align-last: right;
+     color: #ffffff;
+    line-height: 55px;
+    font-weight: bold;
+    padding-right: .52em;
+  
+}
+
+.booking2 {
+     position: absolute;
+    margin-top: -215px;
+    margin-left: 665px;
+    font-size: 3em;
+    text-align-last: right;
+     color: #ffffff;
+    font-weight: bold;
+    padding-right: .4em;
+    
+}
+.infotext {
+     position: absolute;
+    margin-top: -120px;
+    margin-left: 435px;
+    font-size: .9em;
+    text-align-last: left;
+     color: #ffffff;
+    line-height: 20px;
+    
+}
+
+.highlights {
+    font-size: 1.5em;
+    padding-top: 20px;
+}
+
+.three {
+    margin-left: 27px;
+    margin-right:27px;
+}
+
+ h4 {
+            color: #586e75;
+            font-family: "Marcellus SC", serif;
+        
+     font-size: 1.5em;
+        }
+
+.bighorn {
+    padding-top: 15px;
+}
+
+.main-fork {
+    margin-top: 20px;
 }
